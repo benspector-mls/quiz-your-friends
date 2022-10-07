@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Your Friends!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Super Smash Bros Melee Quiz</h1>
+        <p>How much do you know about the greatest fighter of them all? </p>
+    </header>
+    <main>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" name="username">
+            
+            <label for="email">Email</label>
+            <input type="email" name="email-address">
+            
+            <label for="s-tier">Which characters do you like to play?</label>
+            <textarea name="s-tier">Add your answer here</textarea>
+            
+            <label for="stage">Which of the following is the best stage?</label>
+            <input type="radio" name="stage" value="Hyrule Temple"> Hyrule Temple
+            <input type="radio" name="stage" value="Final Destination"> Final Destination
+            <input type="radio" name="stage" value="Fountain of Dreams"> Fountain of Dreams
+            
+            <label for="technique">Which of the following techniques can you perform? (Check all that apply)</label>
+            <input type="checkbox" name="technique" value="DI"> DI
+            <input type="checkbox" name="technique" value="Wave Dash"> Wave Dash
+            <input type="checkbox" name="technique" value="L-Cancel"> L-Cancel
+            <input type="checkbox" name="technique" value="Dash Dance"> Dash Dance
+            
+            <label for="stocks">How many stocks should you play with?</label>
+            <select name="stocks" required>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            
+            <input type="submit" name="submit" value="Submit">
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+<!-- 
+text
+textarea
+select
+checkbox
+radio
+ -->
