@@ -22,6 +22,7 @@ header, main, footer {
 
 header {
     text-align: center;
+    padding: 10px 0px;
 }
 
 header p {
@@ -33,11 +34,6 @@ label {
     display: block;
     padding: 10px 0px;
     font-weight: bold;
-    margin-top: 25px;
-}
-
-label:nth-child(1) {
-    margin-top: 0px;
 }
 
 form {
@@ -46,6 +42,8 @@ form {
 
 textarea {
     display: block;
+    height: 2rem;
+    width: 75%;
 }
 
 select {
@@ -61,4 +59,8 @@ select {
     height: 40px;
     background-color: #37af66;
     border-radius: 5px;
+}
+
+fieldset{
+    margin: 10px;
 }
